@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>registration</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+
+    <style>
+        .container-fluid {
+            text-align: center;
+            background-color: rgba(65, 127, 148, 0.2);
+            padding: 5px;
+        }
+
+        .container-md {
+            border: 2px solid black;
+            border-radius: 6px;
+            width: 50%;
+            height: auto;
+            padding: 1em;
+            margin-top: 2em;
+            margin-bottom: 2em;
+            background-color: rgba(65, 127, 148, 0.2);
+            height: max-content;
+        }
+
+        .footer {
+            position: absolute;
+            top: 100%;
+            background-color: rgba(65, 127, 148, 0.2);
+
+        }
+
+
+        label {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        @media screen and (max-width: 400px) {
+ .container-md{
+   
+            width: 90%;
+            height: auto;
+}
+        }
+
+        @media screen and (max-width: 500px) {
+ .container-md{
+   
+            width: 90%;
+            height: auto;
+}
+        }
+
+/*         
+        @media screen and (min-width: 720px) {
+ .container-md{
+   
+            width: 90%;
+            height: auto;
+            margin-top: 5em;
+            margin-bottom: 8em;
+}
+        } */
+    </style>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <h3> Electronic store</h3>
+    </div>
+    <div class="position-absolute top-50 start-50 translate-middle container-md">
+        <div>
+            <h4 style="text-align: center; padding: 5px;"> Registertion</h4>
+        </div>
+        <div class="row">
+            <div class="col">
+                <label for="Name">First Name</label>
+                <input type="text" class="form-control" placeholder="First Name">
+            </div>
+            <div class="col">
+                <label for="Name">Last Name</label>
+                <input type="text" class="form-control" placeholder="Last Name">
+            </div>
+        </div>
+        <label for="phone">Phone number</label>
+        <input type="text" class="form-control" placeholder="phone number">
+        <div class="row">
+            <div class="col-6">
+                <label for="birth">Birthdate</label>
+                <input type="date" class="form-control" placeholder="birthdate">
+            </div>
+
+            <div class="col-6">
+
+
+                <div class="form">
+                    <label for="gender">Gender</label><br>
+                    <input class="form-input" type="radio" id="Male" name="flexRadioDeafault">Male <br>
+                    <input class="form-input" type="radio" id="Female" name="flexRadioDeafault"> Female
+                </div>
+            </div>
+        </div>
+    
+
+    <label for="email">Email </label>
+    <input type="email" class="form-control" id="form" placeholder="email">
+    <label for="address">Address</label>
+    <input type="text" class="form-control" placeholder="address">
+
+    <label for="pass">Password</label>
+    <input type="password" class="form-control" id="form" placeholder="password">
+    <button class="btn btn-primary" type="submit"
+        style="margin-left:40%;text-decoration: none; color: aliceblue;margin-top:4px;">Submit</button>
+
+    <br>
+    <p style="text-align: center;"> <b> Alreay have an account? </b><a href="login.html">Login</a> </p>
+    </div>
+    </div>
+</body>
+<div class="container-fluid footer">
+    <h3>@electronic store</h3>
+</div>
+
+</body>
+
+</html>
